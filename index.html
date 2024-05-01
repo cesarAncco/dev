@@ -1,11 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Primera Página</title>
   </head>
   <body>
-    <h1>Ejemplo de H1 modificado</h1>
+    <!-- Realizar la documentacion en el codigo es una buena practica -->
+    <!-- Primer encabezado -->
+    <h1 style="color: crimson; text-align: center;">Encabezado h1</h1>
+    <!-- Linea horizontal -->
+    <hr/>
+    <!-- Primer parrafo -->
+    <p style="font-size: 2em;">Primer parrafo en un html</p>
+    <!-- Parrafo con salto de linea -->
+    <p>Parrafo con salto <br/> de linea</p>
+    <!-- Primer link en la pagina -->
+    <a href="http://www.google.com" target="_blank" style="text-decoration: none;">Ir a la pagina de Google</a>
+    <!-- Primera imagen en la pagina (se pone en un div para poder tenerlo en un block) -->
+    <div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcl3j4RpeNo0ZE8pnbn_dDUBFX2s7Ty2zxxT1VrGHHwg&s" 
+      alt="Icono UNSA" width="200px">
+    </div>
+    <!-- Segunda imagen localmente -->
+    <div>
+      <img src="/asset/logo-certus-compartir.jpg" alt="Icono Certus" width="200px">
+    </div>
+
+    <!-- Primer boton -->
+    <button>Aceptar</button>
+
+    <!-- Listas -->
+    <p>Listas en html:</p>
+    <ol>
+      <li>Opcion 1</li>
+      <li>Opcion 2</li>
+    </ol>
+
+    <ul>
+      <li>Opcion 1</li>
+      <li>Opcion 2</li>
+    </ul>
+
+
+    <!-- Primera tabla en html -->
+    <table border="1">
+      <head>
+        <tr>
+          <th>Codigo</th>
+          <th>Nombre</th>
+          <th>Apellidos</th>
+        </tr>
+      </head>
+      <body>
+        <tr>
+          <td>001</td>
+          <td>Cesar</td>
+          <td>Ancco</td>
+        </tr>
+        <tr>
+          <td>002</td>
+          <td>Cesar</td>
+          <td>Ancco</td>
+        </tr>
+      </body>
+    </table>
+
+    <!-- Elemento en bloque div -->
+    <div style="background-color: red; color: white;">
+      <p>Parrafo en un div</p>
+    </div>
+
+    <!-- Elemento en linea span -->
+    <p>Escuela Profesional de Ingenieria de <span style="background-color: yellow; color: red;">Sistemas</span></p>
+    
   </body>
 </html>
