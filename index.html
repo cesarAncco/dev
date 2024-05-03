@@ -73,6 +73,65 @@
 
     <!-- Elemento en linea span -->
     <p>Escuela Profesional de Ingenieria de <span style="background-color: yellow; color: red;">Sistemas</span></p>
+
+    <!-- Formularios -->
+    <h1>Este es un Formulario</h1>
+    <!-- <div style="width: 30%; height: 20%; margin: auto; border: 3px solid black; padding: 15px;">
+      <form action="/procesar_datos" target="_blank" method="post">
+        <label for="codigo">Codigo</label><br/>
+        <input type="text" name="codigo" id="codigo" placeholder="Ingrese el codigo"><br/>
+        <label for="pasaporte">Pasaporte</label>
+        <input type="radio" name="documento" id="pasaporte">
+        <label for="dni">DNI</label>
+        <input type="radio" name="documento" id="dni">
+        <label for="otro">Otro</label>
+        <input type="radio" name="documento" id="otro">
+        <br/>
+        <input type="submit" value="Enviar">
+      </form>
+    </div> -->
+
+    <form>
+      <table width="100%">
+        <tr>
+          <th colspan="4">Datos Personales</th>
+        </tr>
+        <tr>
+          <td width="30%"></td>
+          <td width="20%"><label for="nombre">Nombres y Apellidos</label></td>
+          <td width="20%"><input type="text" name="nombre" id="nombre" placeholder="Ingrese los Nombres y Apellidos"></td>
+          <td width="30%"></td>
+        </tr>
+        <tr>
+          <td width="30%"></td>
+          <td width="20%"><label for="direccion">Dirección</label></td>
+          <td width="20%"><input type="text" name="direccion" id="direccion" placeholder="Ingrese la Dirección"></td>
+          <td width="30%"></td>
+        </tr>
+        <tr>
+          <td width="30%"></td>
+          <td colspan="2" width="40%">
+            <label for="hombre">Hombre</label>
+            <input type="radio" name="genero" id="hombre">
+            <label for="mujer">Mujer</label>
+            <input type="radio" name="genero" id="mujer">
+          </td>
+          <td width="30%"></td>
+          <tr>
+            <td width="30%"></td>
+            <td width="20%"><label for="direccion">Idioma</label></td>
+            <td width="20%"><select name="idiomas" id="idiomas" name="lenguages">
+              <option value="spanish">Español</option>
+              <option value="english">Ingles</option>
+              <option value="frech">Frances</option>
+            </select></td>
+            <td width="30%"></td>
+          </tr>
+        </tr>
+      </table>
+    </form>
+    
+
     
   </body>
 </html>
